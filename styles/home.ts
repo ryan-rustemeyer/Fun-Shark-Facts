@@ -1,0 +1,107 @@
+import { StyleSheet } from 'react-native'
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F7F8FC',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E8ECF4',
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: '800',
+    color: '#1C1C1E',
+  },
+  list: {
+    flex: 1,
+    paddingHorizontal: 16,
+    paddingTop: 12,
+  },
+  noteCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 14,
+    padding: 16,
+    marginBottom: 10,
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.04,
+    shadowRadius: 6,
+    elevation: 1,
+  },
+  noteContent: {
+    flex: 1,
+    gap: 4,
+  },
+  noteText: {
+    fontSize: 15,
+    color: '#1C1C1E',
+    lineHeight: 21,
+  },
+  noteDate: {
+    fontSize: 12,
+    color: '#A0AABB',
+    marginTop: 2,
+  },
+  emptyContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  emptyState: {
+    alignItems: 'center',
+    gap: 8,
+  },
+  emptyText: {
+    fontSize: 17,
+    fontWeight: '600',
+    color: '#8E8E93',
+  },
+  emptySubtext: {
+    fontSize: 14,
+    color: '#C0C8D8',
+  },
+  inputRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    gap: 10,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    backgroundColor: '#FFFFFF',
+    borderTopWidth: 1,
+    borderTopColor: '#E8ECF4',
+  },
+  input: {
+    flex: 1,
+    backgroundColor: '#F7F8FC',
+    borderWidth: 1.5,
+    borderColor: '#E8ECF4',
+    borderRadius: 22,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    fontSize: 15,
+    color: '#1C1C1E',
+    maxHeight: 100,
+  },
+  sendBtn: {
+    backgroundColor: '#5B5BD6',
+    borderRadius: 22,
+    width: 44,
+    height: 44,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  sendBtnDisabled: {
+    backgroundColor: '#A0A0D0',
+  },
+})
