@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+✨Fun Shark Facts✨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native / Expo app that lets users explore different shark species and learn interesting facts about them.
 
-## Get started
+**[View the live demo](https://fun-shark-facts.vercel.app/)**
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Browse different shark species
+- View 3 categories of facts: Basic, Interesting, and Insane 
+- User registration and login
+- Supabase authentication
+- Bookmark favorite sharks
+- Add custom sharks
+- Responsive interface for web and mobile
+- Expo Router navigation
 
-   ```bash
-   npx expo start
-   ```
+## Technologies
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- Supabase
+- AsyncStorage
+- Vercel
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Authentication
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+User authentication is handled through Supabase, including user registration, login, and account management.
 
-## Get a fresh project
+## Through this project, I learned how to:
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Build a React Native application with Expo
+- Use TypeScript and reusable components
+- Implement navigation with Expo Router
+- Implement user authentication with Supabase
+- Deploy a web application with Vercel
+- Debug authentication and deployment issues
