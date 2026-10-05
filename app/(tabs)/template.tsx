@@ -14,7 +14,7 @@ import {
   Text,
   View
 } from 'react-native';
-import SupabaseSharkCard from "../../components/SharkComps/SupabaseSharkCard";
+import SupabaseSharkCard from "../../components/SharkComps/UserSharkCard";
 
 import { supabase } from '@/lib/supabase';
 import * as ImagePicker from 'expo-image-picker';
@@ -22,20 +22,20 @@ import * as ImagePicker from 'expo-image-picker';
 
 
 type Row = {
-  id: string;          // ← keep — primary key
-  shark_name: string;   // ← CHANGE — replace with your column name
-  basic_facts: string;         // ← CHANGE — replace with your column name
-  interesting_facts: string;        // ← CHANGE — replace with your column name
+  id: string;          
+  shark_name: string;   
+  basic_facts: string;         
+  interesting_facts: string;        
   insane_facts: string; 
-  shark_url: string | null;       // ← CHANGE — replace with your column name
+  shark_url: string | null;       
 
 };
 
 
 const EMPTY_FORM = {
-  shark_name: '',   // ← CHANGE
-  basic_facts: '',         // ← CHANGE
-  interesting_facts: '',        // ← CHANGE
+  shark_name: '',   
+  basic_facts: '',         
+  interesting_facts: '',       
   insane_facts: '', 
   image: null, 
 };
@@ -49,7 +49,7 @@ type FormValues = {
   basic_facts: string;
   interesting_facts: string;
   insane_facts: string;
-  image: string | null; // ✅ FIXED
+  image: string | null; 
 };;
 
 export default function CrudScreen() {

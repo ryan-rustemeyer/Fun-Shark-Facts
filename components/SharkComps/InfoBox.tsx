@@ -22,11 +22,14 @@ export default function InfoBox({ title, items, backgroundColor }: Props) {
 
 const styles = StyleSheet.create({
   subtitle: {
+    width: '100%', 
+    maxWidth: 500,
+    alignSelf: 'center',
     fontSize: 28,
     color: 'white',
     fontWeight: '500',
     marginTop: 20,
-    marginLeft: 20,
+    
   },
   box: {
     width: '100%',
