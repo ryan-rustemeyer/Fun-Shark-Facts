@@ -1,6 +1,6 @@
-✨Fun Shark Facts✨
+# ✨Fun Shark Facts✨
 
-A React Native / Expo app that lets users explore different shark species and learn interesting facts about them.
+A React Native / Expo app that lets users explore different shark species, learn interesting facts, and add shark facts of their own.
 
 **[View the live demo](https://fun-shark-facts.vercel.app/)**
 
@@ -13,28 +13,63 @@ A React Native / Expo app that lets users explore different shark species and le
 - Supabase authentication
 - Bookmark favorite sharks
 - Add custom sharks
-- Responsive interface for web and mobile
-- Expo Router navigation
 
 ## Technologies
 
 - React Native
 - Expo
 - TypeScript
-- Expo Router
 - Supabase
-- AsyncStorage
-- Vercel
 
 ## Authentication
 
-User authentication is handled through Supabase, including user registration, login, and account management.
+User authentication is handled through Supabase, including user registration, login, storage, and account management.
 
-## Through this project, I learned how to:
+## How to Run Locally
 
-- Build a React Native application with Expo
-- Use TypeScript and reusable components
-- Implement navigation with Expo Router
-- Implement user authentication with Supabase
-- Deploy a web application with Vercel
-- Debug authentication and deployment issues
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- npm
+- A [Supabase](https://supabase.com/) project
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ryan-rustemeyer/Fun-Shark-Facts.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Fun-Shark-Facts
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env` file in the project root and configure your Supabase credentials:
+
+   ```env
+   EXPO_PUBLIC_SUPABASE_URL=your_supabase_project_url
+   EXPO_PUBLIC_SUPABASE_ANON_KEY=your_supabase_publishable_or_anon_key
+   ```
+
+   Replace the placeholders with the appropriate credentials from your own Supabase project. Never commit your `.env` file or expose secret service-role keys.
+
+5. Start the development server:
+
+   ```bash
+   npx expo start
+   ```
+
+6. To run the web version, press `w` in the Expo terminal, or run:
+
+   ```bash
+   npx expo start --web
+   ```
